@@ -29,7 +29,7 @@
     .logo {
       text-align: center;
       font-size: 42px;
-      padding: 250px 0 70px;
+      padding: 50px 0 50px;
       font-weight: normal;
       text-shadow: 0px 1px 2px #ddd;
     }
@@ -41,13 +41,12 @@
     footer {
       line-height: 1.8;
       text-align: center;
-      padding: 50px 0;
+      padding: 30px 0;
       color: #999;
     }
 
-    .description {
+    .img {
       text-align: center;
-      font-size: 16px;
     }
 
     a {
@@ -70,6 +69,9 @@
 <body>
   <header>
     <h1 class="logo">凯迪LUCK有钱有限公司</h1>
+    <div class="img">
+      <img src="{{.img}}" width="35%">
+    </div>
   </header>
   <footer>
     <div>访问量  uv:{{.uv}} / pv:{{.pv}}</div>
