@@ -67,7 +67,6 @@
 <body>
 <header>
     <div class="img">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/t-ddbgjUs2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe height=498 width=510 src="http://player.youku.com/embed/XMzQwMTA2OTI4MA==" frameborder="0" allowfullscreen>
         </iframe>
     </div>
