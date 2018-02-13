@@ -12,6 +12,7 @@ type MainController struct {
 	beego.Controller
 }
 
+// @router / [get]
 func (c *MainController) Get() {
 	req := c.Ctx.Request
 	addr := string(req.RemoteAddr)
@@ -39,6 +40,14 @@ func (c *MainController) Get() {
 	c.Data["img"] = "http://ws1.sinaimg.cn/large/5febaf6ely1fmt6h7c0b0j20jg0p8kce.jpg"
 	c.TplName = "index.tpl"
 }
+
+
+// @router /wedding [get]
+func (c *MainController) Wedding() {
+	c.TplName = "wedding.tpl"
+}
+
+
 
 // 判断是否为线上机
 func online() bool {
