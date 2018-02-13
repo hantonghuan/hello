@@ -67,7 +67,7 @@
 <body>
 <header>
     <div class="img">
-        <iframe height=498 width=510 src="http://player.youku.com/embed/XMzQwMTA2OTI4MA==" frameborder=0>
+        <iframe height=498 width=510 src="http://player.youku.com/embed/XMzQwMTA2OTI4MA==" frameborder="0" allowfullscreen>
         </iframe>
     </div>
     <h1 class="logo">KD WEDDING</h1>
